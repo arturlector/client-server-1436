@@ -15,6 +15,7 @@
 		1257BBAF26C19FB000C90066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257BBAD26C19FB000C90066 /* LaunchScreen.storyboard */; };
 		1257BBBA26C1A4BC00C90066 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBB926C1A4BC00C90066 /* SendViewController.swift */; };
 		1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBBB26C1A4C800C90066 /* DetailViewController.swift */; };
+		1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC026C1AAA400C90066 /* NotificationCenterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1257BBB926C1A4BC00C90066 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SendViewController.swift; path = ../../../SendViewController.swift; sourceTree = "<group>"; };
 		1257BBBB26C1A4C800C90066 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1257BBBE26C1AA1000C90066 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		1257BBC026C1AAA400C90066 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		1257BBB826C1A3C200C90066 /* lesson-1 */ = {
 			isa = PBXGroup;
 			children = (
+				1257BBBF26C1AA8600C90066 /* NotificationCenter */,
 				1257BBBD26C1AA0F00C90066 /* Singleton */,
 				1257BBB926C1A4BC00C90066 /* SendViewController.swift */,
 			);
@@ -105,6 +108,14 @@
 				1257BBBB26C1A4C800C90066 /* DetailViewController.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		1257BBBF26C1AA8600C90066 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBC026C1AAA400C90066 /* NotificationCenterViewController.swift */,
+			);
+			path = NotificationCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */,
 				1257BBBA26C1A4BC00C90066 /* SendViewController.swift in Sources */,
 				1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */,
 				1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */,
