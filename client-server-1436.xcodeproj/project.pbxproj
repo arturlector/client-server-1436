@@ -22,6 +22,7 @@
 		1257BBD126C5A2B400C90066 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD026C5A2B400C90066 /* Session.swift */; };
 		1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD626C5A32500C90066 /* AuthViewController.swift */; };
 		1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */; };
+		1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBDA26C5A86600C90066 /* FriendsAPI.swift */; };
 		5D57C4658DBEC173B3E375C7 /* Pods_client_server_1436.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		1257BBD026C5A2B400C90066 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		1257BBD626C5A32500C90066 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFriendsViewController.swift; sourceTree = "<group>"; };
+		1257BBDA26C5A86600C90066 /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
 		803141B3633E10DBD1C4BFA1 /* Pods-client-server-1436.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.debug.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_1436.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F756D822FB9BD0D14AFAEDAA /* Pods-client-server-1436.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.release.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				1257BBD026C5A2B400C90066 /* Session.swift */,
+				1257BBDA26C5A86600C90066 /* FriendsAPI.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */,
 				1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */,
 				1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */,
+				1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
