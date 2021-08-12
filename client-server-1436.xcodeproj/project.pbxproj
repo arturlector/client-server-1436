@@ -13,9 +13,11 @@
 		1257BBAA26C19FAE00C90066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257BBA826C19FAE00C90066 /* Main.storyboard */; };
 		1257BBAC26C19FB000C90066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1257BBAB26C19FB000C90066 /* Assets.xcassets */; };
 		1257BBAF26C19FB000C90066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257BBAD26C19FB000C90066 /* LaunchScreen.storyboard */; };
-		1257BBBA26C1A4BC00C90066 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBB926C1A4BC00C90066 /* SendViewController.swift */; };
 		1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBBB26C1A4C800C90066 /* DetailViewController.swift */; };
 		1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC026C1AAA400C90066 /* NotificationCenterViewController.swift */; };
+		1257BBC426C58EA200C90066 /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC326C58EA200C90066 /* ChooseFruitViewController.swift */; };
+		1257BBC826C58F2D00C90066 /* DisplayFruitsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC726C58F2D00C90066 /* DisplayFruitsTableController.swift */; };
+		1257BBCA26C590AA00C90066 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC926C590AA00C90066 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +29,12 @@
 		1257BBAB26C19FB000C90066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1257BBAE26C19FB000C90066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1257BBB026C19FB000C90066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1257BBB926C1A4BC00C90066 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SendViewController.swift; path = ../../../SendViewController.swift; sourceTree = "<group>"; };
 		1257BBBB26C1A4C800C90066 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1257BBBE26C1AA1000C90066 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 		1257BBC026C1AAA400C90066 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		1257BBC326C58EA200C90066 /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
+		1257BBC726C58F2D00C90066 /* DisplayFruitsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFruitsTableController.swift; sourceTree = "<group>"; };
+		1257BBC926C590AA00C90066 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,9 @@
 		1257BBB826C1A3C200C90066 /* lesson-1 */ = {
 			isa = PBXGroup;
 			children = (
+				1257BBC226C58E0A00C90066 /* Delegate */,
 				1257BBBF26C1AA8600C90066 /* NotificationCenter */,
 				1257BBBD26C1AA0F00C90066 /* Singleton */,
-				1257BBB926C1A4BC00C90066 /* SendViewController.swift */,
 			);
 			path = "lesson-1";
 			sourceTree = "<group>";
@@ -106,6 +110,7 @@
 			children = (
 				1257BBBE26C1AA1000C90066 /* SendViewController.swift */,
 				1257BBBB26C1A4C800C90066 /* DetailViewController.swift */,
+				1257BBC926C590AA00C90066 /* Account.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -116,6 +121,15 @@
 				1257BBC026C1AAA400C90066 /* NotificationCenterViewController.swift */,
 			);
 			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		1257BBC226C58E0A00C90066 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBC326C58EA200C90066 /* ChooseFruitViewController.swift */,
+				1257BBC726C58F2D00C90066 /* DisplayFruitsTableController.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +203,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */,
-				1257BBBA26C1A4BC00C90066 /* SendViewController.swift in Sources */,
 				1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */,
+				1257BBC426C58EA200C90066 /* ChooseFruitViewController.swift in Sources */,
+				1257BBC826C58F2D00C90066 /* DisplayFruitsTableController.swift in Sources */,
 				1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */,
+				1257BBCA26C590AA00C90066 /* Account.swift in Sources */,
 				1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */,
 				1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */,
 			);
