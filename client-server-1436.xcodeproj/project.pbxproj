@@ -19,6 +19,9 @@
 		1257BBC826C58F2D00C90066 /* DisplayFruitsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC726C58F2D00C90066 /* DisplayFruitsTableController.swift */; };
 		1257BBCA26C590AA00C90066 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC926C590AA00C90066 /* Account.swift */; };
 		1257BBCD26C5987F00C90066 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBCC26C5987F00C90066 /* NetworkingViewController.swift */; };
+		1257BBD126C5A2B400C90066 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD026C5A2B400C90066 /* Session.swift */; };
+		1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD626C5A32500C90066 /* AuthViewController.swift */; };
+		1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */; };
 		5D57C4658DBEC173B3E375C7 /* Pods_client_server_1436.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		1257BBC726C58F2D00C90066 /* DisplayFruitsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFruitsTableController.swift; sourceTree = "<group>"; };
 		1257BBC926C590AA00C90066 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		1257BBCC26C5987F00C90066 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		1257BBD026C5A2B400C90066 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		1257BBD626C5A32500C90066 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFriendsViewController.swift; sourceTree = "<group>"; };
 		803141B3633E10DBD1C4BFA1 /* Pods-client-server-1436.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.debug.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_1436.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F756D822FB9BD0D14AFAEDAA /* Pods-client-server-1436.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.release.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,8 +160,43 @@
 		1257BBCE26C5A19500C90066 /* vk-api */ = {
 			isa = PBXGroup;
 			children = (
+				1257BBD326C5A2F200C90066 /* Modules */,
+				1257BBCF26C5A1FB00C90066 /* Service */,
 			);
 			path = "vk-api";
+			sourceTree = "<group>";
+		};
+		1257BBCF26C5A1FB00C90066 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD026C5A2B400C90066 /* Session.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1257BBD326C5A2F200C90066 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD426C5A2FE00C90066 /* Auth */,
+				1257BBD526C5A30400C90066 /* Display Friends */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1257BBD426C5A2FE00C90066 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD626C5A32500C90066 /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1257BBD526C5A30400C90066 /* Display Friends */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */,
+			);
+			path = "Display Friends";
 			sourceTree = "<group>";
 		};
 		31C10C2DA8CD7511F4B8CBFC /* Frameworks */ = {
@@ -289,6 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */,
+				1257BBD126C5A2B400C90066 /* Session.swift in Sources */,
 				1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */,
 				1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */,
 				1257BBCD26C5987F00C90066 /* NetworkingViewController.swift in Sources */,
@@ -296,6 +339,7 @@
 				1257BBC826C58F2D00C90066 /* DisplayFruitsTableController.swift in Sources */,
 				1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */,
 				1257BBCA26C590AA00C90066 /* Account.swift in Sources */,
+				1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */,
 				1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */,
 				1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */,
 			);
