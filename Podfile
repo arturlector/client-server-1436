@@ -11,6 +11,6 @@ target 'client-server-1436' do
 
   #pod 'Realm'
   #pod 'Firebase'
-  #pod 'SwiftKeychainWrapper'
+  pod 'SwiftKeychainWrapper'
 
 end
