@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,12 @@
 		1257BBC426C58EA200C90066 /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC326C58EA200C90066 /* ChooseFruitViewController.swift */; };
 		1257BBC826C58F2D00C90066 /* DisplayFruitsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC726C58F2D00C90066 /* DisplayFruitsTableController.swift */; };
 		1257BBCA26C590AA00C90066 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBC926C590AA00C90066 /* Account.swift */; };
+		1257BBCD26C5987F00C90066 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBCC26C5987F00C90066 /* NetworkingViewController.swift */; };
+		1257BBD126C5A2B400C90066 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD026C5A2B400C90066 /* Session.swift */; };
+		1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD626C5A32500C90066 /* AuthViewController.swift */; };
+		1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */; };
+		1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBDA26C5A86600C90066 /* FriendsAPI.swift */; };
+		5D57C4658DBEC173B3E375C7 /* Pods_client_server_1436.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,14 @@
 		1257BBC326C58EA200C90066 /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
 		1257BBC726C58F2D00C90066 /* DisplayFruitsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFruitsTableController.swift; sourceTree = "<group>"; };
 		1257BBC926C590AA00C90066 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		1257BBCC26C5987F00C90066 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		1257BBD026C5A2B400C90066 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		1257BBD626C5A32500C90066 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFriendsViewController.swift; sourceTree = "<group>"; };
+		1257BBDA26C5A86600C90066 /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
+		803141B3633E10DBD1C4BFA1 /* Pods-client-server-1436.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.debug.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.debug.xcconfig"; sourceTree = "<group>"; };
+		B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_1436.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F756D822FB9BD0D14AFAEDAA /* Pods-client-server-1436.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.release.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D57C4658DBEC173B3E375C7 /* Pods_client_server_1436.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +68,8 @@
 			children = (
 				1257BBA126C19FAE00C90066 /* client-server-1436 */,
 				1257BBA026C19FAE00C90066 /* Products */,
+				5DA0E050F87AB876C8421821 /* Pods */,
+				31C10C2DA8CD7511F4B8CBFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				1257BBB626C1A20700C90066 /* App */,
+				1257BBCE26C5A19500C90066 /* vk-api */,
 				1257BBA626C19FAE00C90066 /* ViewController.swift */,
+				1257BBCB26C594D300C90066 /* lesson-2 */,
 				1257BBB826C1A3C200C90066 /* lesson-1 */,
 				1257BBB726C1A21A00C90066 /* Resources */,
 			);
@@ -132,6 +151,74 @@
 			path = Delegate;
 			sourceTree = "<group>";
 		};
+		1257BBCB26C594D300C90066 /* lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBCC26C5987F00C90066 /* NetworkingViewController.swift */,
+			);
+			path = "lesson-2";
+			sourceTree = "<group>";
+		};
+		1257BBCE26C5A19500C90066 /* vk-api */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD326C5A2F200C90066 /* Modules */,
+				1257BBCF26C5A1FB00C90066 /* Service */,
+			);
+			path = "vk-api";
+			sourceTree = "<group>";
+		};
+		1257BBCF26C5A1FB00C90066 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD026C5A2B400C90066 /* Session.swift */,
+				1257BBDA26C5A86600C90066 /* FriendsAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1257BBD326C5A2F200C90066 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD426C5A2FE00C90066 /* Auth */,
+				1257BBD526C5A30400C90066 /* Display Friends */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1257BBD426C5A2FE00C90066 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD626C5A32500C90066 /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1257BBD526C5A30400C90066 /* Display Friends */ = {
+			isa = PBXGroup;
+			children = (
+				1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */,
+			);
+			path = "Display Friends";
+			sourceTree = "<group>";
+		};
+		31C10C2DA8CD7511F4B8CBFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DA0E050F87AB876C8421821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				803141B3633E10DBD1C4BFA1 /* Pods-client-server-1436.debug.xcconfig */,
+				F756D822FB9BD0D14AFAEDAA /* Pods-client-server-1436.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1257BBB326C19FB000C90066 /* Build configuration list for PBXNativeTarget "client-server-1436" */;
 			buildPhases = (
+				C732851F8019F65425669A70 /* [CP] Check Pods Manifest.lock */,
 				1257BB9B26C19FAE00C90066 /* Sources */,
 				1257BB9C26C19FAE00C90066 /* Frameworks */,
 				1257BB9D26C19FAE00C90066 /* Resources */,
+				06ED86D34B8EF103EED43B49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,19 +286,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06ED86D34B8EF103EED43B49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-client-server-1436/Pods-client-server-1436-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-client-server-1436/Pods-client-server-1436-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-client-server-1436/Pods-client-server-1436-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C732851F8019F65425669A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-client-server-1436-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1257BB9B26C19FAE00C90066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */,
+				1257BBD126C5A2B400C90066 /* Session.swift in Sources */,
 				1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */,
 				1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */,
+				1257BBCD26C5987F00C90066 /* NetworkingViewController.swift in Sources */,
 				1257BBC426C58EA200C90066 /* ChooseFruitViewController.swift in Sources */,
 				1257BBC826C58F2D00C90066 /* DisplayFruitsTableController.swift in Sources */,
 				1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */,
 				1257BBCA26C590AA00C90066 /* Account.swift in Sources */,
+				1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */,
 				1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */,
 				1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */,
+				1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +489,7 @@
 		};
 		1257BBB426C19FB000C90066 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803141B3633E10DBD1C4BFA1 /* Pods-client-server-1436.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,6 +509,7 @@
 		};
 		1257BBB526C19FB000C90066 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F756D822FB9BD0D14AFAEDAA /* Pods-client-server-1436.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
