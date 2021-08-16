@@ -8,6 +8,7 @@ target 'client-server-1436' do
   # Pods for client-server-1436
 
   pod 'Alamofire'
+  pod 'DynamicJSON'
 
   #pod 'Realm'
   #pod 'Firebase'
