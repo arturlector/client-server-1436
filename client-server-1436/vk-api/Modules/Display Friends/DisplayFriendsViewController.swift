@@ -10,14 +10,17 @@ import UIKit
 class DisplayFriendsViewController: UITableViewController {
 
     let friendsAPI = FriendsAPI()
+    var friends: [FriendDynamic] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
 
-        friendsAPI.getFriends { users in
+        friendsAPI.getFriends { [weak self] users in
             
-            //self.friends = users
-            //tableView.reload
+            self?.friends = users
+            self?.tableView.reloadData()
         }
     }
 
@@ -25,7 +28,18 @@ class DisplayFriendsViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return friends.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        
+        let friend: FriendDynamic = friends[indexPath.row]
+        
+        cell.textLabel?.text = "\(friend.firstName) \(friend.lastName)"
+        
+        return cell
     }
 
 }

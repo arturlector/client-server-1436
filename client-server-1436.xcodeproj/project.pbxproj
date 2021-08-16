@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1244B62126CAD74D00CA7360 /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62026CAD74D00CA7360 /* Data+PrettyJSON.swift */; };
+		1244B62426CAD94100CA7360 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62326CAD94100CA7360 /* Friend.swift */; };
+		1244B62626CAE31D00CA7360 /* FriendManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62526CAE31D00CA7360 /* FriendManual.swift */; };
+		1244B62826CAE62D00CA7360 /* FriendDynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62726CAE62D00CA7360 /* FriendDynamic.swift */; };
+		1244B62A26CAE68300CA7360 /* GroupsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62926CAE68300CA7360 /* GroupsAPI.swift */; };
+		1244B62C26CAE69800CA7360 /* PhotosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62B26CAE69800CA7360 /* PhotosAPI.swift */; };
 		1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBA226C19FAE00C90066 /* AppDelegate.swift */; };
 		1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBA426C19FAE00C90066 /* SceneDelegate.swift */; };
 		1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBA626C19FAE00C90066 /* ViewController.swift */; };
@@ -27,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1244B62026CAD74D00CA7360 /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
+		1244B62326CAD94100CA7360 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		1244B62526CAE31D00CA7360 /* FriendManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendManual.swift; sourceTree = "<group>"; };
+		1244B62726CAE62D00CA7360 /* FriendDynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDynamic.swift; sourceTree = "<group>"; };
+		1244B62926CAE68300CA7360 /* GroupsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAPI.swift; sourceTree = "<group>"; };
+		1244B62B26CAE69800CA7360 /* PhotosAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAPI.swift; sourceTree = "<group>"; };
 		1257BB9F26C19FAE00C90066 /* client-server-1436.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-server-1436.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1257BBA226C19FAE00C90066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1257BBA426C19FAE00C90066 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +75,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1244B61F26CAD70F00CA7360 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1244B62026CAD74D00CA7360 /* Data+PrettyJSON.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1244B62226CAD8FC00CA7360 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1244B62326CAD94100CA7360 /* Friend.swift */,
+				1244B62526CAE31D00CA7360 /* FriendManual.swift */,
+				1244B62726CAE62D00CA7360 /* FriendDynamic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1257BB9626C19FAE00C90066 = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +114,8 @@
 		1257BBA126C19FAE00C90066 /* client-server-1436 */ = {
 			isa = PBXGroup;
 			children = (
-				1257BBB626C1A20700C90066 /* App */,
 				1257BBCE26C5A19500C90066 /* vk-api */,
+				1257BBB626C1A20700C90066 /* App */,
 				1257BBA626C19FAE00C90066 /* ViewController.swift */,
 				1257BBCB26C594D300C90066 /* lesson-2 */,
 				1257BBB826C1A3C200C90066 /* lesson-1 */,
@@ -162,8 +192,10 @@
 		1257BBCE26C5A19500C90066 /* vk-api */ = {
 			isa = PBXGroup;
 			children = (
+				1244B61F26CAD70F00CA7360 /* Extension */,
 				1257BBD326C5A2F200C90066 /* Modules */,
 				1257BBCF26C5A1FB00C90066 /* Service */,
+				1244B62226CAD8FC00CA7360 /* Models */,
 			);
 			path = "vk-api";
 			sourceTree = "<group>";
@@ -171,8 +203,10 @@
 		1257BBCF26C5A1FB00C90066 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				1257BBD026C5A2B400C90066 /* Session.swift */,
+				1244B62926CAE68300CA7360 /* GroupsAPI.swift */,
 				1257BBDA26C5A86600C90066 /* FriendsAPI.swift */,
+				1257BBD026C5A2B400C90066 /* Session.swift */,
+				1244B62B26CAE69800CA7360 /* PhotosAPI.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -336,15 +370,21 @@
 				1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */,
 				1257BBD126C5A2B400C90066 /* Session.swift in Sources */,
 				1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */,
+				1244B62626CAE31D00CA7360 /* FriendManual.swift in Sources */,
+				1244B62126CAD74D00CA7360 /* Data+PrettyJSON.swift in Sources */,
 				1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */,
 				1257BBCD26C5987F00C90066 /* NetworkingViewController.swift in Sources */,
 				1257BBC426C58EA200C90066 /* ChooseFruitViewController.swift in Sources */,
 				1257BBC826C58F2D00C90066 /* DisplayFruitsTableController.swift in Sources */,
+				1244B62C26CAE69800CA7360 /* PhotosAPI.swift in Sources */,
 				1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */,
 				1257BBCA26C590AA00C90066 /* Account.swift in Sources */,
 				1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */,
+				1244B62A26CAE68300CA7360 /* GroupsAPI.swift in Sources */,
 				1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */,
 				1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */,
+				1244B62826CAE62D00CA7360 /* FriendDynamic.swift in Sources */,
+				1244B62426CAD94100CA7360 /* Friend.swift in Sources */,
 				1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
