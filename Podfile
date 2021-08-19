@@ -9,9 +9,10 @@ target 'client-server-1436' do
 
   pod 'Alamofire'
   pod 'DynamicJSON'
+  pod 'SwiftKeychainWrapper'
+  pod 'RealmSwift'
 
-  #pod 'Realm'
+  
   #pod 'Firebase'
-  #pod 'SwiftKeychainWrapper'
 
 end
