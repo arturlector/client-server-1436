@@ -186,10 +186,10 @@
             </objects>
             <point key="canvasLocation" x="-60.869565217391312" y="-655.58035714285711"/>
         </scene>
-        <!--Persistency View Controller-->
+        <!--Realm View Controller-->
         <scene sceneID="7zv-Ku-uaf">
             <objects>
-                <viewController id="wlh-Ft-imf" customClass="PersistencyViewController" customModule="client_server_1436" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wlh-Ft-imf" customClass="RealmViewController" customModule="client_server_1436" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kiv-Lk-npn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
