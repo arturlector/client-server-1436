@@ -34,6 +34,8 @@
 		1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD626C5A32500C90066 /* AuthViewController.swift */; };
 		1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */; };
 		1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBDA26C5A86600C90066 /* FriendsAPI.swift */; };
+		12E53D2126D8037800F5A448 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E53D2026D8037800F5A448 /* RealmViewController.swift */; };
+		12E53D2326D8087C00F5A448 /* PersonDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E53D2226D8087C00F5A448 /* PersonDB.swift */; };
 		5D57C4658DBEC173B3E375C7 /* Pods_client_server_1436.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		1257BBD626C5A32500C90066 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFriendsViewController.swift; sourceTree = "<group>"; };
 		1257BBDA26C5A86600C90066 /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
+		12E53D2026D8037800F5A448 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		12E53D2226D8087C00F5A448 /* PersonDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDB.swift; sourceTree = "<group>"; };
 		803141B3633E10DBD1C4BFA1 /* Pods-client-server-1436.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.debug.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client_server_1436.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F756D822FB9BD0D14AFAEDAA /* Pods-client-server-1436.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.release.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 				1257BBB626C1A20700C90066 /* App */,
 				1257BBCE26C5A19500C90066 /* vk-api */,
 				1257BBA626C19FAE00C90066 /* ViewController.swift */,
+				12E53D1F26D8035400F5A448 /* lesson-6 */,
 				1244B63B26CECAAF00CA7360 /* lesson-4 */,
 				1257BBCB26C594D300C90066 /* lesson-2 */,
 				1257BBB826C1A3C200C90066 /* lesson-1 */,
@@ -265,6 +270,15 @@
 				1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */,
 			);
 			path = "Display Friends";
+			sourceTree = "<group>";
+		};
+		12E53D1F26D8035400F5A448 /* lesson-6 */ = {
+			isa = PBXGroup;
+			children = (
+				12E53D2026D8037800F5A448 /* RealmViewController.swift */,
+				12E53D2226D8087C00F5A448 /* PersonDB.swift */,
+			);
+			path = "lesson-6";
 			sourceTree = "<group>";
 		};
 		31C10C2DA8CD7511F4B8CBFC /* Frameworks */ = {
@@ -404,6 +418,7 @@
 				1244B62626CAE31D00CA7360 /* FriendManual.swift in Sources */,
 				1244B62126CAD74D00CA7360 /* Data+PrettyJSON.swift in Sources */,
 				1244B66A26CED79800CA7360 /* Human+CoreDataProperties.swift in Sources */,
+				12E53D2326D8087C00F5A448 /* PersonDB.swift in Sources */,
 				1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */,
 				1257BBCD26C5987F00C90066 /* NetworkingViewController.swift in Sources */,
 				1257BBC426C58EA200C90066 /* ChooseFruitViewController.swift in Sources */,
@@ -415,6 +430,7 @@
 				1257BBCA26C590AA00C90066 /* Account.swift in Sources */,
 				1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */,
 				1244B62A26CAE68300CA7360 /* GroupsAPI.swift in Sources */,
+				12E53D2126D8037800F5A448 /* RealmViewController.swift in Sources */,
 				1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */,
 				1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */,
 				1244B63F26CED4B300CA7360 /* User.swift in Sources */,
