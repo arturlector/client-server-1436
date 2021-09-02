@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1201D9FE26E13E2500268F5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1201D9FD26E13E2500268F5B /* GoogleService-Info.plist */; };
+		1201DA0126E13F9500268F5B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201DA0026E13F9500268F5B /* LoginViewController.swift */; };
+		1201DA0326E13FA200268F5B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201DA0226E13FA200268F5B /* HomeViewController.swift */; };
+		1201DA0526E1467600268F5B /* CityFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1201DA0426E1467600268F5B /* CityFB.swift */; };
 		1244B62126CAD74D00CA7360 /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62026CAD74D00CA7360 /* Data+PrettyJSON.swift */; };
 		1244B62426CAD94100CA7360 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62326CAD94100CA7360 /* Friend.swift */; };
 		1244B62626CAE31D00CA7360 /* FriendManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244B62526CAE31D00CA7360 /* FriendManual.swift */; };
@@ -34,12 +38,18 @@
 		1257BBD726C5A32500C90066 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD626C5A32500C90066 /* AuthViewController.swift */; };
 		1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */; };
 		1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257BBDA26C5A86600C90066 /* FriendsAPI.swift */; };
+		12D3EF2B26DD4863008FA716 /* RealmNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3EF2A26DD4863008FA716 /* RealmNotificationsViewController.swift */; };
+		12D3EF2D26DD4CC0008FA716 /* ObjectNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3EF2C26DD4CC0008FA716 /* ObjectNotificationsViewController.swift */; };
 		12E53D2126D8037800F5A448 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E53D2026D8037800F5A448 /* RealmViewController.swift */; };
 		12E53D2326D8087C00F5A448 /* PersonDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E53D2226D8087C00F5A448 /* PersonDB.swift */; };
 		5D57C4658DBEC173B3E375C7 /* Pods_client_server_1436.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EBAE5AD55008553ECACA92 /* Pods_client_server_1436.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1201D9FD26E13E2500268F5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1201DA0026E13F9500268F5B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1201DA0226E13FA200268F5B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1201DA0426E1467600268F5B /* CityFB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFB.swift; sourceTree = "<group>"; };
 		1244B62026CAD74D00CA7360 /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
 		1244B62326CAD94100CA7360 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		1244B62526CAE31D00CA7360 /* FriendManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendManual.swift; sourceTree = "<group>"; };
@@ -70,6 +80,8 @@
 		1257BBD626C5A32500C90066 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		1257BBD826C5A34200C90066 /* DisplayFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFriendsViewController.swift; sourceTree = "<group>"; };
 		1257BBDA26C5A86600C90066 /* FriendsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAPI.swift; sourceTree = "<group>"; };
+		12D3EF2A26DD4863008FA716 /* RealmNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmNotificationsViewController.swift; sourceTree = "<group>"; };
+		12D3EF2C26DD4CC0008FA716 /* ObjectNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectNotificationsViewController.swift; sourceTree = "<group>"; };
 		12E53D2026D8037800F5A448 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
 		12E53D2226D8087C00F5A448 /* PersonDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDB.swift; sourceTree = "<group>"; };
 		803141B3633E10DBD1C4BFA1 /* Pods-client-server-1436.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-client-server-1436.debug.xcconfig"; path = "Target Support Files/Pods-client-server-1436/Pods-client-server-1436.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1201D9FF26E13F8300268F5B /* lesson-8 */ = {
+			isa = PBXGroup;
+			children = (
+				1201DA0426E1467600268F5B /* CityFB.swift */,
+				1201DA0026E13F9500268F5B /* LoginViewController.swift */,
+				1201DA0226E13FA200268F5B /* HomeViewController.swift */,
+			);
+			path = "lesson-8";
+			sourceTree = "<group>";
+		};
 		1244B61F26CAD70F00CA7360 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +172,8 @@
 				1257BBB626C1A20700C90066 /* App */,
 				1257BBCE26C5A19500C90066 /* vk-api */,
 				1257BBA626C19FAE00C90066 /* ViewController.swift */,
+				1201D9FF26E13F8300268F5B /* lesson-8 */,
+				12D3EF2926DD4830008FA716 /* lesson-7 */,
 				12E53D1F26D8035400F5A448 /* lesson-6 */,
 				1244B63B26CECAAF00CA7360 /* lesson-4 */,
 				1257BBCB26C594D300C90066 /* lesson-2 */,
@@ -171,6 +195,7 @@
 		1257BBB726C1A21A00C90066 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1201D9FD26E13E2500268F5B /* GoogleService-Info.plist */,
 				1257BBA826C19FAE00C90066 /* Main.storyboard */,
 				1257BBAB26C19FB000C90066 /* Assets.xcassets */,
 				1257BBAD26C19FB000C90066 /* LaunchScreen.storyboard */,
@@ -272,6 +297,15 @@
 			path = "Display Friends";
 			sourceTree = "<group>";
 		};
+		12D3EF2926DD4830008FA716 /* lesson-7 */ = {
+			isa = PBXGroup;
+			children = (
+				12D3EF2A26DD4863008FA716 /* RealmNotificationsViewController.swift */,
+				12D3EF2C26DD4CC0008FA716 /* ObjectNotificationsViewController.swift */,
+			);
+			path = "lesson-7";
+			sourceTree = "<group>";
+		};
 		12E53D1F26D8035400F5A448 /* lesson-6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1257BBAF26C19FB000C90066 /* LaunchScreen.storyboard in Resources */,
+				1201D9FE26E13E2500268F5B /* GoogleService-Info.plist in Resources */,
 				1257BBAC26C19FB000C90066 /* Assets.xcassets in Resources */,
 				1257BBAA26C19FAE00C90066 /* Main.storyboard in Resources */,
 			);
@@ -417,6 +452,8 @@
 				1257BBC126C1AAA400C90066 /* NotificationCenterViewController.swift in Sources */,
 				1244B62626CAE31D00CA7360 /* FriendManual.swift in Sources */,
 				1244B62126CAD74D00CA7360 /* Data+PrettyJSON.swift in Sources */,
+				1201DA0326E13FA200268F5B /* HomeViewController.swift in Sources */,
+				1201DA0126E13F9500268F5B /* LoginViewController.swift in Sources */,
 				1244B66A26CED79800CA7360 /* Human+CoreDataProperties.swift in Sources */,
 				12E53D2326D8087C00F5A448 /* PersonDB.swift in Sources */,
 				1257BBA726C19FAE00C90066 /* ViewController.swift in Sources */,
@@ -426,17 +463,20 @@
 				1244B66926CED79800CA7360 /* Human+CoreDataClass.swift in Sources */,
 				1244B62C26CAE69800CA7360 /* PhotosAPI.swift in Sources */,
 				1257BBBC26C1A4C800C90066 /* DetailViewController.swift in Sources */,
+				12D3EF2D26DD4CC0008FA716 /* ObjectNotificationsViewController.swift in Sources */,
 				1244B66526CED6F700CA7360 /* coredatastack.xcdatamodeld in Sources */,
 				1257BBCA26C590AA00C90066 /* Account.swift in Sources */,
 				1257BBD926C5A34200C90066 /* DisplayFriendsViewController.swift in Sources */,
 				1244B62A26CAE68300CA7360 /* GroupsAPI.swift in Sources */,
 				12E53D2126D8037800F5A448 /* RealmViewController.swift in Sources */,
+				1201DA0526E1467600268F5B /* CityFB.swift in Sources */,
 				1257BBA326C19FAE00C90066 /* AppDelegate.swift in Sources */,
 				1257BBA526C19FAE00C90066 /* SceneDelegate.swift in Sources */,
 				1244B63F26CED4B300CA7360 /* User.swift in Sources */,
 				1244B62826CAE62D00CA7360 /* FriendDynamic.swift in Sources */,
 				1244B62426CAD94100CA7360 /* Friend.swift in Sources */,
 				1244B63D26CECB3000CA7360 /* PersistencyViewController.swift in Sources */,
+				12D3EF2B26DD4863008FA716 /* RealmNotificationsViewController.swift in Sources */,
 				1257BBDB26C5A86600C90066 /* FriendsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

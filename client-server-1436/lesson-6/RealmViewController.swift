@@ -20,7 +20,7 @@ class PersonModel: Object {
 //    override static func primaryKey() -> String? {
 //         return "id"
 //    }
-
+    
 }
 
 class RealmViewController: UIViewController {
@@ -38,18 +38,12 @@ class RealmViewController: UIViewController {
         person2.car = "Camar"
         person2.mobile = "iPhone"
         
-       
         personDB.add(person2)
-        
         print(personDB.fetch())
 
         personDB.delete(person2)
-        
         print(personDB.fetch())
-       
-        
+               
     }
-    
-
 
 }
