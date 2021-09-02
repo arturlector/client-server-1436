@@ -38,11 +38,8 @@ class PersonDB: PersonDBProtocol {
         
         //Прочитать объекты
         let users = mainRealm.objects(PersonModel.self)
-        
         users.forEach { print($0.name, $0.age, $0.id) }
-        
         print(mainRealm.configuration.fileURL)
-        
         return Array(users)
     }
     

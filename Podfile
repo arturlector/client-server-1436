@@ -14,5 +14,7 @@ target 'client-server-1436' do
 
   
   #pod 'Firebase'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 
 end
